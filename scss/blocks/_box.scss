@@ -1,0 +1,116 @@
+.box {
+    max-width: 1440px;
+    background-color: #ffffff;
+
+    &__child {
+       margin: 0;
+       padding: 0;
+       display: flex;
+       max-width: 1440px;
+       margin-top: 15px;
+       margin-left: 391px;
+       position: relative;
+       margin-right: 65px;
+       margin-bottom: 20px;
+    }
+
+    &__img {
+        width: 177px;
+        top: -50%;
+        bottom: 100%;
+        left: -300px;
+        position: absolute;
+
+        &:hover {
+            opacity: 0.8;
+            background-color: #333333;
+        }
+
+        &:active {
+            opacity: 0.6;
+            background-color: #333333;
+        }
+    }
+    
+
+    &__list {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    &__item {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 500;
+        color: #333333;
+        line-height: 21px;
+        font-style: normal;
+        margin-right: 55px;
+        font-family: "Futura";
+
+        &:hover {
+            color: #ffbd54;
+        }
+
+        &:active {
+            opacity: 0.6;
+            color: #333333;
+        }
+    }
+
+    &__item-1 {
+        position: relative;
+
+        &::before {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: -30px;
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-image: url("/image/fish.svg");
+        }
+    }
+
+    &__btn {
+        margin: 0;
+        padding: 0;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: right;
+        color: #333333;
+        cursor: pointer;
+        position: relative;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+
+        &:hover {
+            color: #ffbd54;
+        }
+
+        &:active {
+            opacity: 0.6;
+            color: #333333;
+        }
+
+        &::before {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: -30px;
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-image: url("/image/foot.svg");
+        }
+    }
+}

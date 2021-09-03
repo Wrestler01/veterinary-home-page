@@ -1,0 +1,204 @@
+.portion {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 1298px;
+    margin-left: 71px;
+    margin-right: 71px;
+    flex-direction: column;
+    
+    &__heading {
+        margin: 0;
+        padding: 0;
+        max-width: 384px;
+        font-family: "Futura";
+        margin-left: auto;
+        margin-right: auto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 20px;
+        color: #333333;
+        margin-bottom: 80px;
+        
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+    }
+
+    &__item {
+        margin: 0;
+        padding: 0;
+        margin-right: 24px;
+        background-color: #ffffff;
+    }
+
+    &__item-1 {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-right: 21px;
+        flex-direction: column;
+    }
+
+    &__image {
+        margin: 0;
+        padding: 0;
+        width: 305px;
+        height: 180px;
+        border-radius: 5px;
+        margin-bottom: 21px;
+    }
+
+    &__time {
+        margin: 0;
+        padding: 0 25px;
+        margin-bottom: 2px;
+        margin-left: 205px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #949494;
+    }
+
+    &__title {
+        margin: 0 25px;
+        padding: 0;
+        width: 182px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 25px;
+        color: #000000;        
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        margin: 0 25px;
+        padding: 0;
+        width: 244px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        margin-bottom: 34px;
+    }
+
+    &__btn {
+        margin: 0 25px;
+        padding: 0;
+        width: 160px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 30px;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        font-size: 16px;
+        position: relative;
+        line-height: 21px;
+        color: #333333;
+
+        &:hover {
+            color: #ffbd54;
+        }
+
+        &:active {
+            opacity: 0.6;
+            color: #333333;
+        }
+
+        &::before {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: -5px;
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-image: url("/image/foot.svg");
+        }
+    }
+
+    &__item-2 {
+        margin: 0;
+        padding: 0;
+        margin-right: 24px;
+        display: flex;
+    }
+
+    &__img {
+        width: 305px;
+        height: 435px;
+    }
+
+    &__piece {
+        margin: 43px 25px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__main-span {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    &__span {
+        margin: 0;
+        padding: 0;
+        margin-right: 7px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #3D9CEA;
+    }
+
+    &__time-y {
+        margin: 0;
+        padding: 0;
+        margin-left: 50px;
+    }
+
+    &__h {
+        margin: 0;
+        padding: 0;
+        margin-top: 32px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 29px;
+        color: #333333;
+    }
+
+    &__letter {
+        width: 250px;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+}

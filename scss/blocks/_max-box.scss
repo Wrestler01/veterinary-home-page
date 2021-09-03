@@ -1,0 +1,111 @@
+.max-box {
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: 290px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, right bottom -230px;
+    background-size: 664px, 319px 430px;
+    background-image: url("/image/big-foot.svg"), url("/image/parrot.png");
+
+    &__left-part {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-right: 82px;
+        position: relative;
+    }
+
+    &__image1 {
+        width: 380px;
+        height: 570px;
+        margin-left: 70px;
+    }
+
+    &__image2 {
+        top: 180px;
+        left: 310px;
+        width: 308px;
+        height: 346px;
+        position: absolute;
+    }
+
+    &__image3 {
+        width: 246px;
+        height: 373px;
+        left: 230px;
+        top: 160px;
+        position: absolute;
+    }
+
+    &__image4 {
+        width: 171px;
+        height: 171px;
+        left: 110px;
+        top: 380px;
+        position: absolute;
+    }
+
+    &__right-part {
+        margin: 0;
+        padding: 0;
+        top: 110px;
+        display: flex;
+        margin-left: 140px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 29px;
+        max-width: 608px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 38px;
+        width: 495px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+    }
+
+    &__btn {
+        padding: 7px 20px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        max-width: 150px;
+        border-radius: 3px;
+        background-color: #333333;
+
+        &:hover {
+            color: #333333;
+            border: 1px solid #ffbd54;
+            background-color: #ffbd54;
+        }
+
+        &:active {
+            opacity: 0.6;
+            color: #333333;
+            border: 1px solid #ffbd54;
+            background-color: #ffbd54;
+        }
+    }
+}
